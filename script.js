@@ -36,8 +36,8 @@ function playWelcomeAudio(audioUrl) {
         });
 }
 
-// How to trigger it when the page loads:
+// Trigger when the page loads
 window.addEventListener('DOMContentLoaded', () => {
-    // Song file updated to exact name "golden brown"
+    // Passing the exact file name you have in the folder
     playWelcomeAudio('./golden brown');
 });
